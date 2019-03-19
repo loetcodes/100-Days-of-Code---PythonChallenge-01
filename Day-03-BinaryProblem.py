@@ -44,4 +44,4 @@ if __name__ == '__main__':
                 final_count = curr_count
             curr_count = 0
         n = math.floor(n/ 2)    
-    print (max(final_count, curr_count)
+    print (max(final_count, curr_count))
