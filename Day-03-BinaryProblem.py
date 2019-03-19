@@ -32,21 +32,16 @@ import sys
 
 if __name__ == '__main__':
 	n = int(input())
-    binary_vals = []
     curr_count = 0
     final_count = 0
 
-    #Creates binary list and counts consecutive values
+    #Counts consecutive values
     while n > 0:
-        rem = n % 2
-        n = math.floor(n/ 2)
-        binary_vals.append(rem)
-        if rem == 1:
+        if n % 2 == 1:
             curr_count += 1
         else:
             if curr_count > final_count:
                 final_count = curr_count
             curr_count = 0
-    binary_vals.reverse()
-    
+        n = math.floor(n/ 2)    
     print (max(final_count, curr_count)
