@@ -20,14 +20,10 @@ def personal_best(scores):
 
 
 def personal_top_three(scores):
-	if len(scores) <= 1:
-		return scores
-	else:
-		best_scores = sorted(scores, reverse=True)
-		if len(best_scores) < 3:
-			return best_scores
-		else:
-			return [best_scores[x] for x in range(3)]
+	best_scores = sorted(scores, reverse=True)
+	if len(best_scores) > 3:
+		return [best_scores[x] for x in range(3)]
+	return best_scores
 
 
 def test_case(given, expected):
