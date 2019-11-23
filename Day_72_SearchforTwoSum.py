@@ -1,5 +1,5 @@
 """
-Source: Daily Coding Problem
+Day 72 - Search for the two values that give sum K
 
 Level: Easy
 
