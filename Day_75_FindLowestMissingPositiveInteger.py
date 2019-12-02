@@ -18,36 +18,7 @@ Given the following input, the function should return the expected outputs.
 	Input: [1, 2, 0] 
 	Output: 3
 
-You can modify the input array in place
-
-
-
-"""
-#!/usr/bin/python3
-
-
-
-
-	"""
-Coding Problem 04
-
-22-Nov-2019
-
-Level: Hard
-
-Task:
-Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well.
-
-
-Example:
-Given the following input, the function should return the expected outputs.
-	Input: [3, 4, -1, 1] 
-	Output: 2
-
-	Input: [1, 2, 0] 
-	Output: 3
-
-You can modify the input array in place
+You can modify the input array in place.
 
 """
 #!/usr/bin/python3
