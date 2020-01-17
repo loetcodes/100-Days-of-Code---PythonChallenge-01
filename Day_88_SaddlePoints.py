@@ -58,14 +58,14 @@ def saddle_points(matrix):
 
 if __name__ == "__main__":
 
-    # matrix = [[1, 2, 3], [3, 1, 2], [2, 3, 1]]
-    # saddle_points(matrix)
+    matrix = [[1, 2, 3], [3, 1, 2], [2, 3, 1]]
+    saddle_points(matrix)
 
-    # matrix = [[4, 5, 4], [3, 5, 5], [1, 5, 4]]
-    # print(saddle_points(matrix))
+    matrix = [[4, 5, 4], [3, 5, 5], [1, 5, 4]]
+    print(saddle_points(matrix))
 
-    # matrix = [[9, 8, 7], [5, 3, 2], [6, 6, 7]]
-    # saddle_points(matrix)
+    matrix = [[9, 8, 7], [5, 3, 2], [6, 6, 7]]
+    saddle_points(matrix)
 
-    # matrix = [[3, 2, 1], [0, 1], [2, 1, 0]]
-    # print(saddle_points(matrix))
+    matrix = [[3, 2, 1], [0, 1], [2, 1, 0]]
+    print(saddle_points(matrix))
