@@ -51,9 +51,9 @@ Sample Output:
 
 
 Test Case 01 Explanation:
-    Set  = {1 2 3 5 6} 
-    Set  = {9 8 5 6 3 2 1 4 7} 
-All the elements of set  are elements of set . 
+    Set A = {1 2 3 5 6} 
+    Set B = {9 8 5 6 3 2 1 4 7} 
+All the elements of set A are elements of set B. 
 Hence, set A is a subset of set B.
 
 """
