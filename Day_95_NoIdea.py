@@ -44,11 +44,23 @@ Hence, the total happiness is 2 - 1 = 1.
 
 #!/bin/python3
 
-# Solution 2 - Other
 n, m = input().split()
+arr = input().split()
 
-elements = input().split()
+set_A = set(input().split())
+set_B = set(input().split())
 
-A = set(input().split())
-B = set(input().split())
-print sum([(i in A) - (i in B) for i in elements])
+sum_A = sum([1 for i in arr if i in set_A])
+sum_B = sum([1 for i in arr if i in set_B])
+
+print(sum_A - sum_B)
+
+
+# Solution 2 - Other
+# n, m = input().split()
+
+# elements = input().split()
+
+# A = set(input().split())
+# B = set(input().split())
+# print sum([(i in A) - (i in B) for i in elements])
