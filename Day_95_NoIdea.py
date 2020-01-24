@@ -45,10 +45,10 @@ Hence, the total happiness is 2 - 1 = 1.
 #!/bin/python3
 
 # Solution 2 - Other
-n, m = raw_input().split()
+n, m = input().split()
 
-elements = raw_input().split()
+elements = input().split()
 
-A = set(raw_input().split())
-B = set(raw_input().split())
+A = set(input().split())
+B = set(input().split())
 print sum([(i in A) - (i in B) for i in elements])
