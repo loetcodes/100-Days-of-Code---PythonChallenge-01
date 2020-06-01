@@ -31,5 +31,5 @@ class Solution:
         if last_val > 9:
             last_val = last_val % 10
             return self.plusOne(digits[:len(digits)-1]) + [last_val]
-        else:
-            return digits[:len(digits)-1] + [last_val]
+
+        return digits[:len(digits)-1] + [last_val]
